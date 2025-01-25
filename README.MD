@@ -10,11 +10,6 @@ Essa é uma API desenvolvida em Python utilizando o framework Django. A API perm
 
           pip install -r requirements.txt
 
-- Logo em seguida, rode o docker do projeto com os seguintes comandos:
-
-          docker-compose build
-          docker-compose up
-
 - A API estará disponível em `http://localhost:8000`.
 
 ### Migrando os models no banco
@@ -30,12 +25,10 @@ Essa é uma API desenvolvida em Python utilizando o framework Django. A API perm
 
         py manage.py populate
 
-- E por ultimo é só rodar o projeto com o 
+- E por ultimo é só rodar o docker do projeto com os seguintes comandos:
 
-        py manage.py run server
-    
-
-E a api estará rodando na porta `:8000`
+          docker-compose build
+          docker-compose up
 
 ### Arquivo Postman 
 
