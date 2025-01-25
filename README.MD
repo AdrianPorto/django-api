@@ -25,7 +25,7 @@ Essa é uma API desenvolvida em Python utilizando o framework Django. A API perm
 
         py manage.py populate
 
-- E por ultimo é só rodar o docker do projeto com os seguintes comandos:
+## Rodando apenas com o Docker
 
           docker-compose build
           docker-compose up
